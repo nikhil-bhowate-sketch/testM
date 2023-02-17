@@ -41,7 +41,7 @@ const Home = () => {
             <span className='icon_search'><Vector className='vector' /></span>
           </div>
           <ol>
-            <li> <a href=''>logout</a>  </li>
+            <li> <a href='#'>logout</a>  </li>
           </ol>
         </nav>
       </header>
