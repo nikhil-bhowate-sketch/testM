@@ -57,17 +57,21 @@ const Home = () => {
               {moviesData.map((items, i) => {
                 return <div key={i} className='cards'>
                   <div className='card_img_div'>
-                  <img src={items.img} alt='no img' className='cards_img' />
+                    <img src={items.img} alt='no img' className='cards_img' />
                   </div>
                   <div className='card-container'>
                     <h3 className='card-header'>{items.title}</h3>
                     <div className='card_rating'>
-                      <img className='star_sty' src={star} alt='no img' /> <img className='star_sty' src={star} alt='no img' /> <span>4.5/5</span>
+                      <div className='card_rating-fix'>
+                      <img className='star_sty' src={star} alt='no img' /> 
+                      <img className='star_sty' src={star} alt='no img' /> 
+                      <span>4.5/5</span>
+                        </div>
                       <div className='card-play'>
-                      <img src={poly} alt='no img' />
+                        <img src={poly} alt='no img' />
+                      </div>
                     </div>
-                    </div>
-                
+
                   </div>
                 </div>
               })}

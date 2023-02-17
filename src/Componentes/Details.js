@@ -15,7 +15,7 @@ const Details = () => {
             </header>
             <Row className={style.MovieDetailsRow}>
                 <>
-                    <Col flex="0 1 450px" className={style.MovieDetails}>
+                    <Col flex="0 1 650px" className={style.MovieDetails}>
                         < div className={style.MovieDetailsContainer}>
                             <img src={BackArrow} alt="BackArrow" style={{ cursor: "pointer" }} id={style.backarrow} />
                             <h1>
