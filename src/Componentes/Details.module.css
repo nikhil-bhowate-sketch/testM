@@ -1,0 +1,61 @@
+.MovieDetailsRow {
+    position: relative;
+    height: 100vh;
+}
+
+.MovieDetails {
+    background: #000;
+    color: #FFFFFF;
+}
+
+.MovieDetailsContainer {
+    padding: 77px 14px 14px 56px;
+}
+
+.MovieDetailsContainer #backarrow {
+    cursor: pointer;
+}
+
+.MovieDetailsContainer h1 {
+    padding-top: 56px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.MovieDetailsContainer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.MovieDetailsContainer .description {
+    font-size: 20px;
+    line-height: 30.4px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.MovieDetailsContainer .language {
+    margin-bottom: 22%;
+}
+
+.movieImg {
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.movieImg .background {
+    background-color: #000;
+    height: 598px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+#img {
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    bottom: 40%;
+}

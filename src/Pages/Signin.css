@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(../../Assets/font_test/HelveticaNeue\ Medium.ttf) font-weight-normal;
+}
+
+.login_header {
+  height: 70px;
+  background: #263f61; 
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 10px;  left: 0px;
+  top: 0px;
+
+}
+.login_logo {
+  width: 179px;
+  height: 44px;
+  margin-left: 56px;
+  margin-top: 12px;
+}
+.sing_form {
+  background: #0c111b;
+  height: 800px;
+}
+.login_container {
+  height: 378px;
+  width: 552px;
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-color: #ffffff;
+  top: 138px;
+}
+
+.container_header {
+  font-family: "Helvetica Neue";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  padding-left: 32px;
+  padding-top: 32px;
+  margin: 0;
+  letter-spacing: 0.24px;
+  color: #263238;
+}
+.sign_para {
+  padding-left: 32px;
+  color: #546e7a;
+  height: 21px;
+}
+.sign_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.sign_input {
+  width: 488px;
+  height: 61px;
+  border: 2px solid #ff7d65;
+  margin-left: 32px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.sign_button {
+  width: 488px;
+  height: 42px;
+  background: #ff7d65;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.31);
+  margin-left: 32px;
+  border-radius: 16px;
+  color: #ffffff;
+  border-style: none;
+}
