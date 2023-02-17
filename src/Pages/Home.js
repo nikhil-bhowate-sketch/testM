@@ -10,7 +10,7 @@ import Logo from '../Pages/Assets/properlogo.png';
 import { ReactComponent as Vector } from '../Pages/Assets/Vector.svg';
 const Home = () => {
   const movies = [{ id: 1, title: 'Game of Thrones', star: [], rating: "4", img: scarfae },
-  { id: 2, title: 'Game of Thrones', star: [], rating: "4", img: wall },
+  { id: 2, title: 'Game of Thrones', star: [], rating: "4", img: scarfae },
   { title: 'The one', star: [], rating: "4", img: wall2 },
   { title: 'Game of Thrones', star: [], rating: "4", img: wall2 },
   { title: 'Game of Thrones', star: [], rating: "4", img: wall2 }]
@@ -62,11 +62,12 @@ const Home = () => {
                   <div className='card-container'>
                     <h3 className='card-header'>{items.title}</h3>
                     <div className='card_rating'>
-                      <img src={star} alt='no img' /> <img src={star} alt='no img' /> <span>4.5/5</span>
-                    </div>
-                    <div className='card-play'>
+                      <img className='star_sty' src={star} alt='no img' /> <img className='star_sty' src={star} alt='no img' /> <span>4.5/5</span>
+                      <div className='card-play'>
                       <img src={poly} alt='no img' />
                     </div>
+                    </div>
+                
                   </div>
                 </div>
               })}

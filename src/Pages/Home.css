@@ -24,7 +24,7 @@ h1 {
 }
 .card-container {
   background: linear-gradient(0deg, #1a2b4a 0%, #2b507c 105.38%);
-  height: 70px;
+  /* height: 70px; */
   position: relative;
   bottom: 24px;
 }
@@ -41,15 +41,20 @@ h1 {
 }
 .card_rating {
   display: flex;
-  justify-content: flex-start;
-  position: relative;
+  justify-content:space-around;
+  /* position: relative;
   left: 23px;
-  bottom: 15px;
+  bottom: 15px; */
+  padding-top: 3px;
+  /* align-items:self-start; */
+}
+.star_sty{
+  width: 15px;height: 15px;
 }
 .card-play {
-  position: relative;
+  /* position: relative;
   left: 245px;
-  top: -53px;
+  top: -53px; */
 }
 
 .card-play img {
