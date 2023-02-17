@@ -16,8 +16,6 @@ const Home = () => {
   { title: 'Game of Thrones', star: [], rating: "4", img: wall2 }]
 
   const [moviesData, setMoviesData] = useState(movies);
-  const [moviesPerPage, setMoviesPerPage] = useState(10);
-
   const [search, setSearch] = useState('')
   const handleChange = (e) => {
     setSearch(e.target.value)
